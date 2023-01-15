@@ -6,4 +6,15 @@
   background-position: center;
   background-repeat: no-repeat;
   border: 1px solid #fff;
+  margin-left: 18px;
+  cursor: pointer;
+  padding: 0;
+}
+
+@media screen and (max-width: 767px) {
+  .profile__edit-btn {
+    width: 18px;
+    height: 18px;
+    margin-left: 10px;
+  }
 }

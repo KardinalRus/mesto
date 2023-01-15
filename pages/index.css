@@ -8,8 +8,6 @@
 @import url(../blocks/card/__text/card__text.css);
 @import url(../blocks/card/card.css);
 
-@import url(../blocks/content/__features/content__features.css);
-
 @import url(../blocks/elements/elements.css);
 @import url(../blocks/elements/__element/elements__element.css);
 
@@ -32,8 +30,12 @@
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);
 
-
-
-* {
-  outline: 1px solid red;
-}
+@import url(../blocks/popup/popup.css);
+@import url(../blocks/popup/__container/popup__container.css);
+@import url(../blocks/popup/__close/popup__close.css);
+@import url(../blocks/popup/__description/popup__description.css);
+@import url(../blocks/popup/__save/popup__save.css);
+@import url(../blocks/popup/__text/popup__text.css);
+@import url(../blocks/popup/__place/popup__place.css);
+@import url(../blocks/popup/__name/popup__name.css);
+@import url(../blocks/popup/__opened/popup__opened.css);
