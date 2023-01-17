@@ -9,8 +9,20 @@
   font-weight: 400;
   font-size: 18px;
   line-height: 22px;
+  margin-top: 22px;
+  border: none;
+  padding: 0;
 }
 
 .popup__save:hover {
   opacity: 0.8;
+}
+
+@media screen and (max-width: 536px) {
+  .popup__save {
+    margin-top: 19px;
+    height: 46px;
+    font-size: 14px;
+    line-height: 17px;
+  }
 }
